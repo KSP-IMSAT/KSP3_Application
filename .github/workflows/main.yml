@@ -1,0 +1,25 @@
+name: Zip Files
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  zip-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Zip Files
+        run: |
+          cd FileLatestVersion
+          zip -r ../setup/setup.zip .
+        working-directory: ${{ github.workspace }}
+      - name: Commit changes
+        run: |
+          git config --global user.email "tiephoang.dev@gmail.com"
+          git config --global user.name "tiephoang.dev@gmail.com"
+          git add setup/setup.zip
+          git commit -m "Add setup.zip file"
+          git push
