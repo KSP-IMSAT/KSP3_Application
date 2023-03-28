@@ -4,8 +4,7 @@ on:
   push:
     branches:
       - main
-env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 jobs:
   zip-files:
     runs-on: ubuntu-latest
@@ -25,4 +24,5 @@ jobs:
           git add .
           git commit -m "Zip Files"
           git push -u origin main
-          
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
