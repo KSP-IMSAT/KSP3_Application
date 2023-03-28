@@ -25,4 +25,4 @@ jobs:
           git commit -m "Zip Files"
           git push -u origin main
         env:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.TOKEN }}
