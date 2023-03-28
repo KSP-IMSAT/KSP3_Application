@@ -20,7 +20,7 @@ jobs:
         run: |
           git config --global user.email "tiephoang.dev@gmail.com"
           git config --global user.name "tiephoang.dev@gmail.com"
-          git checkout -b main
+          git checkout main
           git add .
           git commit -m "Zip Files"
           git push -u origin main
