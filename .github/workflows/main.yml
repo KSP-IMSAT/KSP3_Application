@@ -16,13 +16,13 @@ jobs:
           cd FileLatestVersion
           zip -r ../setup/setup.zip .
         working-directory: ${{ github.workspace }}
-      - name: Commit changes
+      - name: Commit files
         run: |
-          git config --global user.email "tiephoang.dev@gmail.com"
-          git config --global user.name "tiephoang.dev@gmail.com"
-          git checkout main
-          git add .
-          git commit -m "Zip Files"
-          git push -u origin main
-        env:
-          github_token: ${{ secrets.TOKEN }}
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -a -m "Add changes"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
