@@ -18,8 +18,8 @@ jobs:
         working-directory: ${{ github.workspace }}
       - name: Commit changes
         run: |
-          git config --global user.email "tiephoang.dev@gmail.com"
-          git config --global user.name "tiephoang.dev@gmail.com"
+          # git config --global user.email "tiephoang.dev@gmail.com"
+          # git config --global user.name "tiephoang.dev@gmail.com"
           git add setup/setup.zip
           git commit -m "Add setup.zip file"
           git push
