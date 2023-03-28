@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <item>
-  <version>2023.03.27.0</version>
+  <version>2023.03.29.0</version>
   <url>https://rbsoft.org/downloads/AutoUpdaterTest.zip</url>
-  <changelog>https://github.com/ravibpatel/AutoUpdater.NET/releases</changelog>
-  <mandatory>false</mandatory>
+  <mandatory>true</mandatory>
 </item>
