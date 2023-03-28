@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <item>
-  <version>2023.03.29.0</version>
-  <url>https://github.com/KSP-IMSAT/KSP3_Application/raw/main/FileLatestVersion/FileLatestVersion.zip</url>
-  <mandatory>true</mandatory>
+	<version>2023.03.29.0</version>
+	<url>https://github.com/KSP-IMSAT/KSP3_Application/raw/main/FileLatestVersion/FileLatestVersion.zip</url>
+	<mandatory mode="2">true</mandatory>
 </item>
