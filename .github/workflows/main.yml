@@ -18,11 +18,11 @@ jobs:
         working-directory: ${{ github.workspace }}
       - name: Commit changes
         run: |
-          git config --global user.email "<your-email>"
-          git config --global user.name "<your-username>"
+          git config --global user.email "tiephoang.dev@gmail.com"
+          git config --global user.name "tiephoang.dev@gmail.com"
           git checkout -b main
           git add .
-          git commit -m "Commit message"
+          git commit -m "Zip Files"
           git push -u origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
