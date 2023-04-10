@@ -14,7 +14,7 @@ jobs:
       - name: Zip Files
         run: |
           cd FileLatestVersion
-          zip -r ../setup/setup.zip $(find . grep -v "./logs/*")
+          zip -r ../setup/setup.zip -x "*/logs/*"
         working-directory: ${{ github.workspace }}
       - name: Commit changes
         run: |
