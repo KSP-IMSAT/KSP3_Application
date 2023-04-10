@@ -26,6 +26,8 @@ jobs:
           git push -u origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: check token
+        run: echo ${{ secrets.TELEGRAM_CHAT_ID }}
       - name: Notify
         uses: appleboy/telegram-action@master
         with:
