@@ -1,23 +1,22 @@
-name: Notify on new issue
+name: Notify on issue change
 on:
   issues:
-    types: [opened]
+    types: [opened, edited, reopened]
 
 jobs:
-  send-telegram-notification:
+  issue-change:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-    - name: Setup Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.x'
-    - name: Install dependencies
-      run: pip install python-telegram-bot
-    - name: Send Telegram notification
-      run: |
-        python send-telegram-notification.py ${{ secrets.TELEGRAM_CHAT_ID }} ${{ secrets.TELEGRAM_BOT_TOKEN }} ${{ github.event.issue.title }} ${{ github.event.issue.html_url }}
-      env:
-        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Notify on issue change
+        uses: mshick/add-or-update-comment@v1
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          body: |
+            Issue #${{ github.event.issue.number }} has been updated.
+            Title: ${{ github.event.issue.title }}
+            Link: ${{ github.event.issue.html_url }}
