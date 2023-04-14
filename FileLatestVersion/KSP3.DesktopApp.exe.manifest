@@ -4,7 +4,7 @@
   <description asmv2:iconFile="KSP3.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="KSP3.DesktopApp" version="2023.4.15.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="KSP3.DesktopApp" version="2023.4.15.1" language="neutral" processorArchitecture="msil" />
     <commandLine file="KSP3.DesktopApp.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -140,13 +140,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KSP3.DesktopApp.exe" size="154576">
-      <assemblyIdentity name="KSP3.DesktopApp" version="2023.4.15.0" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="KSP3.DesktopApp" version="2023.4.15.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>UNk9o/r+oiheTKmIvbOAGILNm3ark2szLpyJbWm+DPQ=</dsig:DigestValue>
+        <dsig:DigestValue>cpQyHVsUXL3MzYc9hNk5GmAEoEvLjl2MGxCtwiIVwo4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
