@@ -4,7 +4,7 @@
   <description asmv2:iconFile="KSP3.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="KSP3.DesktopApp" version="2023.4.15.2" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="KSP3.DesktopApp" version="2023.4.15.3" language="neutral" processorArchitecture="msil" />
     <commandLine file="KSP3.DesktopApp.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -74,7 +74,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>58pz/O1B8QLqk9Z6fYVT0z5TSNqGJQN7/Fh/QkhSxL4=</dsig:DigestValue>
+        <dsig:DigestValue>NdCCpJTzNiFqRNHEd5Olpc8e7cs2RXiwlNq87N1K09g=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -103,14 +103,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DatabaseAccess.dll" size="17408">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DatabaseAccess.dll" size="18432">
       <assemblyIdentity name="DatabaseAccess" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>tkN9m9WIcORkJQz2TynRloXv1pa2DIFmseAyyycaLB0=</dsig:DigestValue>
+        <dsig:DigestValue>gsARzvhbflQA7ew8ZfIvcNtMknlJbedDLwX2KHKDNiY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -122,67 +122,67 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>DsgjgwCDQ6u2V9ypAOIO6c3qSTnwWP2xrXp4gPr9zJk=</dsig:DigestValue>
+        <dsig:DigestValue>YJcyhxaeSFtN/0+734b8Q8W0evtOHH/nPLgHIQK/OX4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DTO.dll" size="18432">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DTO.dll" size="19456">
       <assemblyIdentity name="DTO" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>gyCH9dEHfxHj5JYjvg1cN54zO36iDyPmnFtJfCWnGEA=</dsig:DigestValue>
+        <dsig:DigestValue>07fdDEfsc9w+1vBtMP02UB6TH9vko9jkAlQmEqVfuro=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KSP3.DesktopApp.exe" size="154576">
-      <assemblyIdentity name="KSP3.DesktopApp" version="2023.4.15.2" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="KSP3.DesktopApp" version="2023.4.15.3" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>SXXljlDriAMCjHSFAwAvjZ9M/p1U/6mBicVDgMJIwrw=</dsig:DigestValue>
+        <dsig:DigestValue>ng4TtXb6ipqxuTw17KHRwrLx5HEsbAa78oTEuw+Dq7Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KSP3.DesktopApp.CustomUI.dll" size="456704">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KSP3.DesktopApp.CustomUI.dll" size="457216">
       <assemblyIdentity name="KSP3.DesktopApp.CustomUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>qGeTLcieh9oA2YqBhbK/qWpLpvXta11f1vnZAlzH8uc=</dsig:DigestValue>
+        <dsig:DigestValue>TOWs2M7ka9uO9jcJXGUuk5VDxYG7Md8ORli3p2BZNzY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KSP3.Reader.Contract.dll" size="5632">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KSP3.Reader.Contract.dll" size="6144">
       <assemblyIdentity name="KSP3.Reader.Contract" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>e76aqKJsPZGj8FZ+YNuc/ytOEZnxXGVKvWGD2v42f9U=</dsig:DigestValue>
+        <dsig:DigestValue>5i4WizALUgCufg7IQk/Pqj/HaOeSVT5hplndqPLbTV0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KSP3.StoreLib.dll" size="9216">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KSP3.StoreLib.dll" size="9728">
       <assemblyIdentity name="KSP3.StoreLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>p8FqX2Hrgpoi91ZyLHLQpz1/B8z/Vb20WbT+y9a/f4E=</dsig:DigestValue>
+        <dsig:DigestValue>hAz4+I9OupzXBCB5pAOOe89uvg6oD7aZU0v1lw2KgTk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
