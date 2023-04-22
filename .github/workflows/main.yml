@@ -11,10 +11,15 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Zip Files
+      - name: Zip Files App desktop
         run: |
-          cd FileLatestVersion
-          zip -r ../setup/setup.zip . -x "*/logs/*"
+          cd AppDesktopLatestVersion
+          zip -r ../setup/AppDesktopLatestVersion.zip . -x "*/logs/*"
+        working-directory: ${{ github.workspace }}
+      - name: Zip Files Service
+        run: |
+          cd ServiceLastestVersion
+          zip -r ../setup/ServiceLastestVersion.zip . -x "*/logs/*"
         working-directory: ${{ github.workspace }}
       - name: Commit changes
         run: |
