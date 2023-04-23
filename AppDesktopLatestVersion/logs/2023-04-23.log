@@ -1,4 +1,4 @@
-2023-04-22 20:59:35.8506|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
+2023-04-23 11:15:15.2513|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
    at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
    at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
@@ -9,7 +9,7 @@
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
    at KSP3.DesktopApp.Views.frmMain.<<RegisterUI>b__8_2>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 129
-2023-04-22 21:00:04.5319|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
+2023-04-23 11:34:29.7392|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
    at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
    at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
@@ -20,7 +20,7 @@
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
    at KSP3.DesktopApp.Views.frmMain.<<RegisterUI>b__8_2>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 129
-2023-04-22 21:00:20.3252|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
+2023-04-23 12:41:32.9998|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
    at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
    at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
@@ -31,7 +31,7 @@
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
    at KSP3.DesktopApp.Views.frmMain.<<RegisterUI>b__8_2>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 129
-2023-04-22 21:00:28.1394|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
+2023-04-23 12:42:00.3305|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
    at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
    at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
@@ -42,7 +42,7 @@
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
    at KSP3.DesktopApp.Views.frmMain.<<RegisterUI>b__8_2>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 129
-2023-04-22 21:00:36.1333|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
+2023-04-23 12:42:08.1389|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
    at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
    at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
@@ -53,7 +53,7 @@
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
    at KSP3.DesktopApp.Views.frmMain.<<RegisterUI>b__8_2>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 129
-2023-04-22 21:00:44.1255|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
+2023-04-23 12:42:16.1613|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
    at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
    at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
@@ -64,7 +64,7 @@
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
    at KSP3.DesktopApp.Views.frmMain.<<RegisterUI>b__8_2>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 129
-2023-04-22 21:00:52.1539|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
+2023-04-23 12:42:35.2412|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
    at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
    at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
@@ -75,7 +75,7 @@
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
    at KSP3.DesktopApp.Views.frmMain.<<RegisterUI>b__8_2>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 129
-2023-04-22 21:01:00.1750|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
+2023-04-23 12:42:39.5366|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
    at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
    at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
@@ -86,7 +86,7 @@
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
    at KSP3.DesktopApp.Views.frmMain.<<RegisterUI>b__8_2>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 129
-2023-04-22 21:01:08.1150|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
+2023-04-23 12:42:40.1549|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
    at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
    at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
@@ -97,7 +97,7 @@
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
    at KSP3.DesktopApp.Views.frmMain.<<RegisterUI>b__8_2>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 129
-2023-04-22 21:01:16.1076|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
+2023-04-23 12:43:08.8785|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
    at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
    at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
@@ -108,7 +108,7 @@
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
    at KSP3.DesktopApp.Views.frmMain.<<RegisterUI>b__8_2>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 129
-2023-04-22 21:01:24.1435|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
+2023-04-23 12:43:28.1392|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
    at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
    at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
@@ -119,7 +119,7 @@
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
    at KSP3.DesktopApp.Views.frmMain.<<RegisterUI>b__8_2>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 129
-2023-04-22 21:01:44.4742|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
+2023-04-23 12:43:36.1482|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
    at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
    at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
@@ -130,7 +130,7 @@
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
    at KSP3.DesktopApp.Views.frmMain.<<RegisterUI>b__8_2>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 129
-2023-04-22 21:02:55.0842|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
+2023-04-23 12:43:44.1354|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
    at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
    at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
@@ -141,7 +141,7 @@
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
    at KSP3.DesktopApp.Views.frmMain.<<RegisterUI>b__8_2>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 129
-2023-04-22 21:06:19.2123|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
+2023-04-23 12:44:06.1332|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
    at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
    at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
    at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
@@ -152,23 +152,80 @@
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
    at KSP3.DesktopApp.Views.frmMain.<<RegisterUI>b__8_2>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 129
-2023-04-22 22:16:40.4111|ERROR|ClassHelper.LogHelper|System.NullReferenceException: Object reference not set to an instance of an object.
-   at KSP3.DesktopApp.CustomUI.UserControls.Home.TSensor.RegisterEventOnclick(Control control) in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\UserControls\Home\TSensor.cs:line 101
-   at KSP3.DesktopApp.CustomUI.UserControls.Home.TSensor.RegisterEventOnclick(Control control) in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\UserControls\Home\TSensor.cs:line 107
-   at KSP3.DesktopApp.CustomUI.UserControls.Home.TSensor.RegisterEventOnclick(Control control) in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\UserControls\Home\TSensor.cs:line 107
-   at KSP3.DesktopApp.CustomUI.UserControls.Home.TSensor.TSensor_Load(Object sender, EventArgs e) in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\UserControls\Home\TSensor.cs:line 89
-   at System.EventHandler.Invoke(Object sender, EventArgs e)
-   at System.Windows.Forms.UserControl.OnLoad(EventArgs e)
-   at System.Windows.Forms.UserControl.OnCreateControl()
-   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
-   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
-   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
-   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
-   at System.Windows.Forms.Control.CreateControl()
-   at System.Windows.Forms.Control.ControlCollection.Add(Control value)
-   at KSP3.DesktopApp.CustomUI.Components.ViewMainController.<>c__DisplayClass11_0`1.<<LoadUIAsync>b__0>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\Components\ViewMainController.cs:line 80
+2023-04-23 12:44:35.9914|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at ServiceStack.AsyncServiceClient.<SendWebRequestAsync>d__155`1.MoveNext()
 --- End of stack trace from previous location where exception was thrown ---
    at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
-   at KSP3.DesktopApp.CustomUI.Components.ViewMainController.<OnLoadingControl>d__12`1.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\Components\ViewMainController.cs:line 116
+   at KSP3.DesktopApp.Views.frmMain.<<RegisterUI>b__8_2>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 129
+2023-04-23 12:44:52.1570|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at ServiceStack.AsyncServiceClient.<SendWebRequestAsync>d__155`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at KSP3.DesktopApp.Views.frmMain.<<RegisterUI>b__8_2>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 129
+2023-04-23 12:45:00.1413|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at ServiceStack.AsyncServiceClient.<SendWebRequestAsync>d__155`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at KSP3.DesktopApp.Views.frmMain.<<RegisterUI>b__8_2>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 129
+2023-04-23 12:45:08.1353|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at ServiceStack.AsyncServiceClient.<SendWebRequestAsync>d__155`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at KSP3.DesktopApp.Views.frmMain.<<RegisterUI>b__8_2>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 129
+2023-04-23 12:45:16.1337|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at ServiceStack.AsyncServiceClient.<SendWebRequestAsync>d__155`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at KSP3.DesktopApp.Views.frmMain.<<RegisterUI>b__8_2>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 129
+2023-04-23 12:54:52.1199|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at ServiceStack.AsyncServiceClient.<SendWebRequestAsync>d__155`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at KSP3.DesktopApp.Views.frmMain.<<RegisterUI>b__8_2>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 129
+2023-04-23 12:55:00.1438|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at ServiceStack.AsyncServiceClient.<SendWebRequestAsync>d__155`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at KSP3.DesktopApp.Views.frmMain.<<RegisterUI>b__8_2>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 129
