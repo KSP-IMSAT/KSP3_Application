@@ -1,0 +1,123 @@
+2023-04-27 22:23:28.7131|ERROR|ClassHelper.LogHelper|System.TypeInitializationException: The type initializer for 'ClassHelper.MapperHelper' threw an exception. ---> System.InvalidOperationException: Missing map from DTO.Interfaces.ISensorCore to DTO.Interfaces.ISensorCore. Create using CreateMap<ISensorCore, ISensorCore>.
+   at AutoMapper.MapperConfiguration.<GetIncludedTypeMaps>d__70.MoveNext()
+   at AutoMapper.ProfileMap.ApplyBaseMaps(TypeMap derivedMap, TypeMap currentMap, IConfigurationProvider configurationProvider)
+   at AutoMapper.ProfileMap.Configure(TypeMap typeMap, IConfigurationProvider configurationProvider)
+   at AutoMapper.ProfileMap.Configure(IConfigurationProvider configurationProvider)
+   at AutoMapper.MapperConfiguration.Seal()
+   at AutoMapper.MapperConfiguration..ctor(MapperConfigurationExpression configurationExpression)
+   at AutoMapper.MapperConfiguration..ctor(Action`1 configure)
+   at ClassHelper.MapperHelper..cctor() in D:\PROJECTS\KSP3\ClassHelper\MapperHelper.cs:line 15
+   --- End of inner exception stack trace ---
+   at ClassHelper.MapperHelper.Map[T,Y](T obj)
+   at KSP3.StoreLib.DeviceStoreManager.<>c__2`1.<GetData>b__2_0(DeviceConfigEntity q) in D:\PROJECTS\KSP3\KSP3.StoreLib\DeviceStoreManager.cs:line 28
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at KSP3.StoreLib.DeviceStoreManager.GetData[T]() in D:\PROJECTS\KSP3\KSP3.StoreLib\DeviceStoreManager.cs:line 28
+   at KSP3.DesktopApp.Views.frmMain.<<RegisterUI>b__7_0>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 146
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at KSP3.DesktopApp.CustomUI.Components.ViewMainController.<>c__DisplayClass11_0`1.<<LoadUIAsync>b__0>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\Components\ViewMainController.cs:line 83
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at KSP3.DesktopApp.CustomUI.Components.ViewMainController.<OnLoadingControl>d__12`1.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\Components\ViewMainController.cs:line 116
+2023-04-27 22:35:32.1568|ERROR|ClassHelper.LogHelper|System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at KSP3.DesktopApp.CustomUI.UserControls.Home.MainScreen.<>c.<LoadData>b__8_1(ISensorBaseInfomation q) in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\UserControls\Home\MainScreen.cs:line 41
+   at System.Linq.EnumerableSorter`2.ComputeKeys(TElement[] elements, Int32 count)
+   at System.Linq.EnumerableSorter`1.Sort(TElement[] elements, Int32 count)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at KSP3.DesktopApp.CustomUI.UserControls.Home.MainScreen.<LoadData>d__8.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\UserControls\Home\MainScreen.cs:line 33
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at KSP3.DesktopApp.CustomUI.UserControls.Home.MainScreen.<LoadUI>d__9.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\UserControls\Home\MainScreen.cs:line 56
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at KSP3.DesktopApp.Views.frmMain.<<RegisterUI>b__7_0>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 153
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at KSP3.DesktopApp.CustomUI.Components.ViewMainController.<>c__DisplayClass11_0`1.<<LoadUIAsync>b__0>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\Components\ViewMainController.cs:line 83
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at KSP3.DesktopApp.CustomUI.Components.ViewMainController.<OnLoadingControl>d__12`1.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\Components\ViewMainController.cs:line 116
+2023-04-27 22:38:13.6883|ERROR|ClassHelper.LogHelper|System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at KSP3.DesktopApp.CustomUI.UserControls.Home.MainScreen.<>c.<LoadData>b__8_1(ISensorBaseInfomation q) in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\UserControls\Home\MainScreen.cs:line 41
+   at System.Linq.EnumerableSorter`2.ComputeKeys(TElement[] elements, Int32 count)
+   at System.Linq.EnumerableSorter`1.Sort(TElement[] elements, Int32 count)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at KSP3.DesktopApp.CustomUI.UserControls.Home.MainScreen.<LoadData>d__8.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\UserControls\Home\MainScreen.cs:line 33
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at KSP3.DesktopApp.CustomUI.UserControls.Home.MainScreen.<LoadUI>d__9.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\UserControls\Home\MainScreen.cs:line 56
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at KSP3.DesktopApp.Views.frmMain.<<RegisterUI>b__7_0>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 153
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at KSP3.DesktopApp.CustomUI.Components.ViewMainController.<>c__DisplayClass11_0`1.<<LoadUIAsync>b__0>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\Components\ViewMainController.cs:line 83
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at KSP3.DesktopApp.CustomUI.Components.ViewMainController.<OnLoadingControl>d__12`1.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\Components\ViewMainController.cs:line 116
+2023-04-27 22:40:02.9818|ERROR|ClassHelper.LogHelper|System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at KSP3.DesktopApp.CustomUI.UserControls.Home.MainScreen.<>c.<LoadData>b__8_1(ISensorBaseInfomation q) in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\UserControls\Home\MainScreen.cs:line 41
+   at System.Linq.EnumerableSorter`2.ComputeKeys(TElement[] elements, Int32 count)
+   at System.Linq.EnumerableSorter`1.Sort(TElement[] elements, Int32 count)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at KSP3.DesktopApp.CustomUI.UserControls.Home.MainScreen.<LoadData>d__8.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\UserControls\Home\MainScreen.cs:line 33
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at KSP3.DesktopApp.CustomUI.UserControls.Home.MainScreen.<LoadUI>d__9.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\UserControls\Home\MainScreen.cs:line 56
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at KSP3.DesktopApp.Views.frmMain.<<RegisterUI>b__7_0>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 153
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at KSP3.DesktopApp.CustomUI.Components.ViewMainController.<>c__DisplayClass11_0`1.<<LoadUIAsync>b__0>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\Components\ViewMainController.cs:line 83
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at KSP3.DesktopApp.CustomUI.Components.ViewMainController.<OnLoadingControl>d__12`1.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\Components\ViewMainController.cs:line 116
