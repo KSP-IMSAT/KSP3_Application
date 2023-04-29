@@ -1,0 +1,109 @@
+2023-04-29 17:59:42.6687|ERROR|ClassHelper.LogHelper|System.Runtime.InteropServices.ExternalException (0x80004005): A generic error occurred in GDI+.
+   at System.Drawing.Graphics.Clear(Color color)
+   at KSP3.DesktopApp.CustomUI.UserControls.Home.ControlLevel.ReDraw() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\UserControls\Home\ControlLevel.cs:line 55
+   at KSP3.DesktopApp.CustomUI.UserControls.Home.ControlLevel.set_Level(Nullable`1 value) in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\UserControls\Home\ControlLevel.cs:line 29
+   at KSP3.DesktopApp.CustomUI.UserControls.Home.TSensorControl.InitializeComponent() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\UserControls\Home\TSensorControl.Designer.cs:line 81
+   at KSP3.DesktopApp.CustomUI.UserControls.Home.TSensorControl..ctor() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\UserControls\Home\TSensorControl.cs:line 20
+   at KSP3.DesktopApp.CustomUI.UserControls.Home.TSensor.InitializeComponent() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\UserControls\Home\TSensor.Designer.cs:line 33
+   at KSP3.DesktopApp.CustomUI.UserControls.Home.TSensor..ctor() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\UserControls\Home\TSensor.cs:line 26
+   at KSP3.DesktopApp.CustomUI.UserControls.Home.MainScreen.<LoadUI>d__14.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\UserControls\Home\MainScreen.cs:line 80
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at KSP3.DesktopApp.Views.frmMain.<<RegisterUI>b__7_0>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 162
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at KSP3.DesktopApp.CustomUI.Components.ViewMainController.<>c__DisplayClass11_0`1.<<LoadUIAsync>b__0>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\Components\ViewMainController.cs:line 83
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at KSP3.DesktopApp.CustomUI.Components.ViewMainController.<OnLoadingControl>d__12`1.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\Components\ViewMainController.cs:line 116
+2023-04-29 17:59:47.2048|ERROR|ClassHelper.LogHelper|System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.ExternalException: A generic error occurred in GDI+.
+   at KSP3.DesktopApp.CustomUI.Components.ViewMainController.<OnLoadingControl>d__12`1.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\Components\ViewMainController.cs:line 126
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at KSP3.DesktopApp.Views.frmMain.<frmMain_Load>d__3.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 47
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.<>c.<ThrowAsync>b__6_0(Object state)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at KSP3.DesktopApp.Program.Main() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Program.cs:line 29
+2023-04-29 18:43:28.0882|ERROR|ClassHelper.LogHelper|System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Exception: Vui lòng chọn thiết bị
+   at KSP3.DesktopApp.Views.frmTest.<SetValue>d__2.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmTest.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.<>c.<ThrowAsync>b__6_0(Object state)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at KSP3.DesktopApp.Program.Main() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Program.cs:line 30
+2023-04-29 19:01:03.5360|ERROR|ClassHelper.LogHelper|System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Exception: Vui lòng chọn thiết bị
+   at KSP3.DesktopApp.Views.frmTest.<SetValue>d__2.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmTest.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at KSP3.DesktopApp.Views.frmTest.<timerRunWhenStart1_Tick>d__11.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmTest.cs:line 83
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.<>c.<ThrowAsync>b__6_0(Object state)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at KSP3.DesktopApp.Program.Main() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Program.cs:line 30
