@@ -1,0 +1,16 @@
+2023-05-03 23:19:42.5032|ERROR|ClassHelper.LogHelper|System.Net.WebException: The request timed out ---> System.Net.WebException: The request was aborted: The request was canceled.
+   at System.Net.ConnectStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at System.IO.Stream.<>c.<BeginEndReadAsync>b__43_0(Stream stream, ReadWriteParameters args, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncTrim[TInstance,TArgs](TInstance thisRef, TArgs args, Func`5 beginMethod, Func`3 endMethod)
+   at System.IO.Stream.BeginEndReadAsync(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.ReadAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at ServiceStack.AsyncServiceClient.<SendWebRequestAsync>d__155`1.MoveNext()
+   --- End of inner exception stack trace ---
+   at ServiceStack.AsyncServiceClient.<SendWebRequestAsync>d__155`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at KSP3.DesktopApp.UserControls.WCFClient.<GetData>d__15`1.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\UserControls\WCFClient.cs:line 58
+2023-05-03 23:19:46.4254|ERROR|ClassHelper.LogHelper|System.NullReferenceException: Object reference not set to an instance of an object.
+   at KSP3.DesktopApp.Views.frmMain.<<RegisterUI>b__7_3>d.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\Views\frmMain.cs:line 133
