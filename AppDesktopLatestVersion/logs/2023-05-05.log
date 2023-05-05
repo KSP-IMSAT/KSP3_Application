@@ -147,3 +147,31 @@
 2023-05-05 02:54:19.3741|INFO|ClassHelper.LogHelper|CancelFetchData AutoFetch
 2023-05-05 02:57:15.1225|INFO|ClassHelper.LogHelper|CancelFetchData AutoFetch
 2023-05-05 02:59:43.1090|INFO|ClassHelper.LogHelper|CancelFetchData AutoFetch
+2023-05-05 10:30:49.1482|INFO|ClassHelper.LogHelper|CancelFetchData AutoFetch
+2023-05-05 10:32:04.9674|ERROR|ClassHelper.LogHelper|System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8989
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at ServiceStack.AsyncServiceClient.<SendWebRequestAsync>d__155`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at KSP3.DesktopApp.UserControls.WCFClient.<TryGetData>d__15`1.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\UserControls\WCFClient.cs:line 58
+2023-05-05 11:22:19.6640|INFO|ClassHelper.LogHelper|CancelFetchData AutoFetch
+2023-05-05 11:22:57.4977|INFO|ClassHelper.LogHelper|CancelFetchData AutoFetch
+2023-05-05 17:48:00.4538|INFO|ClassHelper.LogHelper|CancelFetchData AutoFetch
+2023-05-05 17:49:47.0318|INFO|ClassHelper.LogHelper|CancelFetchData AutoFetch
+2023-05-05 17:49:47.1618|ERROR|ClassHelper.LogHelper|System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at KSP3.DesktopApp.CustomUI.UserControls.Home.MainScreen.<StartAutoFetch>d__15.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\UserControls\Home\MainScreen.cs:line 162
+2023-05-05 17:50:34.6084|INFO|ClassHelper.LogHelper|CancelFetchData AutoFetch
+2023-05-05 17:51:37.6159|INFO|ClassHelper.LogHelper|CancelFetchData AutoFetch
+2023-05-05 17:51:37.7409|ERROR|ClassHelper.LogHelper|System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at KSP3.DesktopApp.CustomUI.UserControls.Home.MainScreen.<StartAutoFetch>d__15.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\UserControls\Home\MainScreen.cs:line 162
