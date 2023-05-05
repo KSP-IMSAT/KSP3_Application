@@ -175,3 +175,10 @@
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
    at KSP3.DesktopApp.CustomUI.UserControls.Home.MainScreen.<StartAutoFetch>d__15.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\UserControls\Home\MainScreen.cs:line 162
+2023-05-05 18:12:55.5860|INFO|ClassHelper.LogHelper|CancelFetchData AutoFetch
+2023-05-05 18:17:03.8420|INFO|ClassHelper.LogHelper|CancelFetchData AutoFetch
+2023-05-05 18:17:03.8420|ERROR|ClassHelper.LogHelper|System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at KSP3.DesktopApp.CustomUI.UserControls.Home.MainScreen.<StartAutoFetch>d__15.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp.CustomUI\UserControls\Home\MainScreen.cs:line 162
