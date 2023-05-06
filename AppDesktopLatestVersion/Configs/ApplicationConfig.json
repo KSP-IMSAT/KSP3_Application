@@ -2,5 +2,6 @@
   "FileLatestVersionUrl": "https://raw.githubusercontent.com/KSP-IMSAT/KSP3_Application/main/InfoLatestVersion/ApplicationLastestVersion.xml",
   "ServiceLatestVersionUrl": "https://raw.githubusercontent.com/KSP-IMSAT/KSP3_Application/main/InfoLatestVersion/ServiceLastestVersion.json",
   "Language": "vi",
-  "HostService": "http://localhost:8989"
+  "HostService": "http://localhost:8989",
+  "UdpService": "127.0.0.1"
 }
