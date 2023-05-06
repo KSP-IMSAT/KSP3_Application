@@ -49,3 +49,8 @@
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
    at KSP3.DesktopApp.UserControls.WCFClient.<TryGetData>d__15`1.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\UserControls\WCFClient.cs:line 58
+2023-05-06 22:58:26.1111|INFO|ClassHelper.LogHelper|CancelFetchData AutoFetch
+2023-05-06 23:39:10.1766|INFO|ClassHelper.LogHelper|CancelFetchData AutoFetch
+2023-05-06 23:44:03.1043|INFO|ClassHelper.LogHelper|CancelFetchData AutoFetch
+2023-05-06 23:44:36.7578|INFO|ClassHelper.LogHelper|CancelFetchData AutoFetch
+2023-05-06 23:56:58.2751|INFO|ClassHelper.LogHelper|CancelFetchData AutoFetch
