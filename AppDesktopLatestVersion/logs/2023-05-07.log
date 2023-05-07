@@ -293,3 +293,5 @@
    at KSP3.DesktopApp.UserControls.WCFClient.<TryGetData>d__15`1.MoveNext() in D:\PROJECTS\KSP3\KSP3.DesktopApp\UserControls\WCFClient.cs:line 61
 2023-05-07 01:28:11.6227|INFO|ClassHelper.LogHelper|CancelFetchData AutoFetch
 2023-05-07 01:30:33.4416|INFO|ClassHelper.LogHelper|CancelFetchData AutoFetch
+2023-05-07 12:33:43.8239|INFO|ClassHelper.LogHelper|CancelFetchData AutoFetch
+2023-05-07 18:52:47.1866|INFO|ClassHelper.LogHelper|CancelFetchData AutoFetch
