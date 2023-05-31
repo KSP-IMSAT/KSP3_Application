@@ -1,4 +1,9 @@
 setup/setup.zip
+setup/AppDesktopLatestVersion.zip
+setup/ServiceLastestVersion.zip
+
 FileLatestVersion/logs/**
 ServiceLastestVersion/logs/**
+AppDesktopLatestVersion/logs/**
+
 AppDesktopLatestVersion/update-service.txt
