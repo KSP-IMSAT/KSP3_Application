@@ -2,25 +2,18 @@ name: Notify Telegram on Issue Change
 on:
   issues:
     types: [opened, edited, reopened, closed]
+  issue_comment:
+    types:
+      - created
 
 jobs:
   telegram-notification:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout Code
-      uses: actions/checkout@v2
-
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.9
-
-    - name: Install Dependencies
-      run: pip install python-telegram-bot
-
-    - name: Notify Telegram on Issue Change
-      uses: appleboy/telegram-action@master
-      with:
-        to: ${{ secrets.TELEGRAM_CHAT_ID }}
-        token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-        message: "Issue #${{ github.event.issue.number }} - ${{github.event.issue.title}} (${{github.event.issue.html_url}}) has been ${{ github.event.action }} by ${{github.event.issue.user.login}} (${{github.event.issue.user.html_url}})"
+      - name: Send Telegram notification
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          echo ${TELEGRAM_CHAT_ID}
+          echo ${TELEGRAM_BOT_TOKEN}
+          
