@@ -32,14 +32,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Send Telegram notification
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: |
           curl -X POST \
             -H 'Content-Type: application/json' \
             -d '{
-              "chat_id": "${TELEGRAM_CHAT_ID}",
+              "chat_id": "${{ secrets.TELEGRAM_CHAT_ID }}",
               "text": "New version KSP3 updated. Please go to "Dev>Check for update" for update new version! - tiephoang.dev."
             }' \
-            https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage
+            https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage
             
