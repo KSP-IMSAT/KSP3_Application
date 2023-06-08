@@ -14,7 +14,7 @@ jobs:
         env:
           TOKEN2: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: |
-          echo "TOKEN2=${TOKEN2}"
+          echo "TOKEN2=$TOKEN2"
           echo "env.TOKEN2=${env.TOKEN2}"
           echo "secrets.TELEGRAM_BOT_TOKEN=${{ secrets.TELEGRAM_BOT_TOKEN }}"
           echo "secrets.TELEGRAM_CHAT_ID=${{ secrets.TELEGRAM_CHAT_ID }}"
