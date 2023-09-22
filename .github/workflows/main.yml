@@ -12,7 +12,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: create forder setup
-        run: mkdir -p ../setup
+        run: mkdir -p setup
       - name: Zip Files App desktop
         run: |
           cd AppDesktopLatestVersion
